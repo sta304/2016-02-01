@@ -1,0 +1,61 @@
+---
+title: 'STA304'
+author: "Neil Montgomery"
+date: "2016-02-01"
+output: 
+  ioslides_presentation: 
+    css: 'styles.css' 
+    widescreen: true 
+    transition: 0.001
+---
+\newcommand{\E}[1]{E{\left(#1\right)}}
+\newcommand{\flist}[2]{\{#1_1, #1_2, \ldots, #1_#2\}}
+\renewcommand{\bar}[1]{\overline{#1}}
+\newcommand{\SE}[1]{\sqrt{\hat{V}(#1)}}
+
+# admin update
+
+## course website, availability, term test
+
+* The course website now has textbook commentary and suggested exercises updated regularly.
+
+* Under `Contacts` you can now see `My Google Calendar`. Note that I am *away from Toronto from February 6 to February 15*.
+    + February 8 lecture is *cancelled*.
+
+* The Term Test will be held on 2016-02-11 (Thursday), beginning at 15:30 and ending at 16:30. The test will take place in EX310 and EX320. 
+    + My colleague and many-time instructor of this course will be in attendance, along with the TAs. 
+    + Rooms will be divided by family name---division TBA.
+    + Content covered: up to January 25 and part of February 4 (Chapter 2 material - discussion of **Required Reading** section.)
+  
+# beyond simple random sampling
+
+## why consider other sampling schemes? { .build }
+
+* SRS is simple and effective and the theory is important, but important surveys would rarely use SRS. 
+
+* SRS can be
+    + impossible to implement
+    + costly
+    + inefficient (in the technical sense) because it ignores auxiliary information
+    
+* We'll now examine other sampling designs.
+
+* They are usually nested and/or linear combinations of SRSs, so it always comes down to SRS theory in the end. 
+    
+# stratified random sampling
+
+## divide and conquer { .build }
+
+* Note: "SRS"" is *always Simple Random Sampling*
+
+* In stratified random sampling:
+    + the population is *partitioned* into groups called *strata* 
+    + a SRS is then taken in each *stratum*
+    
+* Considerations:
+    + why do this and when is it better than SRS?
+    + notation and formulae, obviously
+    + sample size(s)?!
+    + can't we just divide data into strata after the fact?
+
+
